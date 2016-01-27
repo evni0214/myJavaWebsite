@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta charset="windows-1251">
+		<title>Student progress</title>
+	</head>
+	
+	<style type="text/css">
+        @import "Style.css";
+	</style>
+	
+	<body>
+        <div class="main">
+            <div class="header">
+                <div class="emptyTitle"></div>
+                <div class="title"> Система управления студентами и их успеваемостью
+                </div>
+                <div class="logout"> <a href="https://google.com/"> Logout </a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="buttons">
+                    <div style="float: left">
+                        <a href="https://google.com/"> На главную </a>
+                    </div>
+                    <div style="float: left; padding: 0px 0px 0px 15px">
+                        <a href="https://google.com/"> Назад </a>
+                    </div>
+                    <div style="padding: 0px 0px 0px 225px; font-size: 20px;">
+                        <a class="textStyle"> Отображена успеваемость для следующего студента: </a>
+                    </div>
+                    <br>
+                    <br>
+                    <table style="width: 750px; margin-left: 225px;" border="1">
+                        <tr class="firstTableRow">
+                            <td> Фамилия </td>
+                            <td> Имя </td>
+                            <td> Группа </td>
+                            <td> Дата поступления </td>
+                        </tr>
+                        <tr class="tableTextStyle">
+                            <td> Петров </td>
+                            <td> Пётр </td>
+                            <td> КТ-21 </td>
+                            <td> 1/09/2011 </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                    <table style="width: 300px; margin-left: 225px; float: left;" border="1">
+                        <tr class="firstTableRow">
+                            <td> Дисциплина </td>
+                            <td> Оценка </td>
+                        </tr>
+                        <tr class="tableTextStyle">
+                            <td> Информатика </td>
+                            <td> 5 </td>
+                        </tr>
+                    </table>
+                    <form style="margin-left: 600px; width: 375px; height: 250px;">
+                        <a class="textStyle" style="float: left;"> Выбрать семестр: </a>
+                        <select class="selectStyle" style="margin-left: 10px; margin-top: 5px; width: 140px; float: left;" id="selectSemester">
+                            <option> Семестр 1 </option>
+                        </select>
+                        <input class="button" style="height: 21px; width: 80px; margin-top: 4px;  margin-left: 10px;" type="submit" value="Выбрать">
+                        <br>
+                        <br>
+                        <a class="textStyle" style="float: left;"> Средняя оценка за семестр: </a>
+                        <a class="textStyle" style="margin-left: 10px;"> 4.8 балла </a>
+                    </form>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

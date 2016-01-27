@@ -1,0 +1,68 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #EEEEEE;
+}
+.main {
+    width: 1200px;
+    margin: 0px auto;
+    background: #EEEEEE;
+}
+.header {
+    height: 85px;
+    margin-top: 0px;
+}
+.emptyTitle {
+    height: 25px;
+}
+.title {
+    width: 750px;
+    font-size: 28px;
+    text-align: center;
+    outline: 2px solid #C78FC7;
+    background: #FFFFFF;
+    margin-left: 225px;
+    float: left;
+    font-family: cursive;
+}
+.logout {
+    width: 50px;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 985px;
+    margin-top: 18px;
+}
+.content {
+    width: 1200px;
+    height: 500px;
+    background: #EEEEEE;
+}
+.buttons {
+    width: 1200px;
+    height: 58px;
+}
+.button {
+    border: 1px solid #000000;
+    background: #CCCCCC;
+    font-family: serif;
+}
+.firstTableRow {
+    background: #CCCCCC;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 14px;
+}
+.textStyle {
+    font-family: cursive;
+}
+.tableTextStyle {
+    font-family: cursive;
+    font-size: 13px;
+}
+.selectStyle {
+    outline: 1px solid #000000;
+    cursor: context-menu;
+    background: url("SelectArrow.jpg") no-repeat right white;
+    font-family: cursive;
+    font-size: 11px;
+}
