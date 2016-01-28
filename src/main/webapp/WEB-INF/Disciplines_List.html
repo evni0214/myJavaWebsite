@@ -1,62 +1,57 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-	<head>
-		<meta charset="windows-1251">
-		<title>Disciplines' list</title>
-	</head>
-	
-	<style type="text/css">
-        @import "Style.css";
-	</style>
-	
-	<body>
-        <div class="main">
-            <div class="header">
-                <div class="emptyTitle"></div>
-                <div class="title"> Система управления студентами и их успеваемостью
-                </div>
-                <div class="logout"> <a href="https://google.com/"> Logout </a>
-                </div>
-            </div>
-            <div class="content">
-                <div class="buttons">
-                    <div style="float: left">
-                        <a href="https://google.com/"> На главную </a>
-                    </div>
-                    <form method="post">
-                        <div style="padding: 0px 0px 0px 225px">
-                            <div style="float: left;">
-                                <input type="submit"style="width: 310px;" class="button" value="Посмотреть успеваемость выбранных студентов">
-                            </div>
-                            <div style="padding: 0px 0px 0px 350px">
-                                <input type="submit" class="button" style="width: 210px;" value="Создать студента">
-                            </div>
-                        </div>
-                        <p></p>
-                        <div style="padding: 0px 0px 0px 225px">
-                            <div style="float: left;">
-                                <input type="submit" class="button" style="width: 310px;" value="Модифицировать выбранного студента">
-                            </div>
-                            <div style="padding: 0px 0px 0px 350px">
-                                <input type="submit" class="button" style="width: 210px" value="Удалить выбранных студентов">
-                            </div>
-                        </div>
-                    </form>
-                    <div style="width: 750px; margin-left: 225px">
-                        <br>
-                        <p class="textStyle" style="font-size: 24px"> Список студентов </p>
-                        <table width="750px" border="1">
-                            <tr class="firstTableRow">
-                                <td style="width: 75px"></td>
-                                <td style="width: 200px">Фамилия</td>
-                                <td style="width: 200px">Имя</td>
-                                <td style="width: 75px">Группа</td>
-                                <td style="width: 75px">Дата поступления</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </div>
+<head>
+    <meta charset="windows-1251">
+    <title>Disciplines' list</title>
+</head>
+
+<style type="text/css">
+    @import "Style.css";
+</style>
+
+<body>
+<div class="main">
+    <div class="header">
+        <div class="emptyTitle"></div>
+        <div class="title"> The control system of students and their academic performance
         </div>
-	</body>
+        <div class="logout"> <a href="https://google.com/"> Logout </a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="buttons">
+            <div style="float: left">
+                <a href="https://google.com/"> Go to main </a>
+            </div>
+            <div style="float: left; padding: 0px 0px 0px 15px">
+                <a href="https://google.com/"> Previous page </a>
+            </div>
+            <div style="padding: 0px 0px 0px 225px; font-size: 20px;">
+                <a class="textStyle"> List of disciplines </a>
+            </div>
+            <br>
+            <br>
+            <table style="width: 400px; margin-left: 225px; float: left;" border="1">
+                <tr class="firstTableRow">
+                    <td> </td>
+                    <td> Name of discipline </td>
+                </tr>
+                <tr class="tableTextStyle">
+                    <td class="checkBoxColumn"> <input type="checkbox" id="1"> </td>
+                    <td> Информатика </td>
+                </tr>
+            </table>
+            <form style="margin-left: 750px; width: 225px; height: 250px;">
+                <input style="width: 225px" class="button" type="submit" value="Create new discipline" id="newDiscipline">
+                <br>
+                <br>
+                <input style="width: 225px" class="button" type="submit" value="Modify existing discipline" id="modifyDiscipline">
+                <br>
+                <br>
+                <input style="width: 225px" class="button" type="submit" value="Delete discipline" id="deleteDiscipline">
+            </form>
+        </div>
+    </div>
+</div>
+</body>
 </html>
