@@ -64,7 +64,7 @@ body {
     margin-top: 5px;
     outline: 1px solid #000000;
     cursor: context-menu;
-    background: url("SelectArrow.jpg") no-repeat right white;
+    background: url("selectArrow.jpg") no-repeat right white;
     font-family: cursive;
     font-size: 11px;
 }

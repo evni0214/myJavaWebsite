@@ -2,11 +2,11 @@
 <html>
 	<head>
 		<meta charset="windows-1251">
-		<title>Semester creating</title>
+		<title>Discipline modifying</title>
 	</head>
 	
 	<style type="text/css">
-        @import "Style.css";
+        @import "style.css";
 	</style>
 	
 	<body>
@@ -27,29 +27,18 @@
                         <a href="https://google.com/"> Previous page </a>
                     </div>
                     <div style="padding: 0px 0px 0px 225px; font-size: 20px;">
-                        <a class="textStyle"> Fill out the fields and click "Create" to crete new semester. </a>
+                        <a class="textStyle"> Fill out the field and click "Submit" to modify existing discipline. </a>
                     </div>
                     <br>
                     <br>
-                    <form style="margin-left: 225px; width: 750px; height: 250px;" method="post">
-                        <a class="textStyle" style="font-size: 14px; float: left;"> Duration (weeks) </a>
+                    <form style="margin-left: 225px; width: 750px; height: 500px;" method="post">
+                        <a class="textStyle" style="font-size: 14px; float: left;"> Name of new discipline </a>
                         <div>
-                            <input style="margin-left: 42px;" type="text" id="semesterDuration">
-                        </div>
-                        <br>
-                        <a class="textStyle" style="font-size: 14px; float: left;"> Included disciplines </a>
-                        <div>
-                            <select style="width: 173px; height: 150px; margin-left: 25px;" multiple= id="disciplineList">
-                                <option> Информатика </option>
-                                <option> Политология </option>
-                                <option> Социология </option>
-                                <option> Высшая математика </option>
-                                <option> Теория алгоритмизации </option>
-                            </select>
+                            <input style="margin-left: 25px;" type="text" id="disciplineName">
                         </div>
                         <br>
                         <div>
-                            <input class="button" style="width: 100px; margin-left: 153px;" type="submit" value="Create" id="createSemester">
+                            <input class="button" style="width: 100px; margin-left: 173px;" type="submit" value="Submit" id="modifyDiscipline">
                         </div>
                     </form>
                 </div>
