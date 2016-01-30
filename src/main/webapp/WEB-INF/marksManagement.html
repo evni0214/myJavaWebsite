@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta charset="windows-1251">
+		<title>Mark management</title>
+	</head>
+	
+	<style type="text/css">
+        @import "style.css";
+	</style>
+	
+	<body>
+        <div class="main">
+            <div class="header">
+                <div class="emptyTitle"></div>
+                <div class="title"> The control system of students and their academic performance
+                </div>
+                <div class="logout"> <a href="https://google.com/"> Logout </a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="buttons">
+                    <div style="float: left">
+                        <a href="https://google.com/"> Go to main </a>
+                    </div>
+                    <div style="float: left; padding: 0px 0px 0px 15px">
+                        <a href="https://google.com/"> Previous page </a>
+                    </div>
+                    <div style="padding: 0px 0px 0px 225px; font-size: 20px;">
+                        <a class="textStyle"> Fill out fields and click "Submit" to create or modify the mark for student. </a>
+                    </div>
+                    <br>
+                    <br>
+                    <form style="margin-left: 225px; width: 600px; height: 250px;">
+                        <a class="textStyle" style="float: left;"> Select student: </a>
+                        <select class="selectStyle" style="margin-left: 21px; float: left;" id="selectStudent">
+                            <option> Петров </option>
+                        </select>
+                        <a class="textStyle" style="margin-left: 10px; float: left;"> Select semester: </a>
+                        <select class="selectStyle" style="margin-left: 10px; float: left;" id="selectSemester">
+                            <option> Семестр 1 </option>
+                        </select>
+                        <br>
+                        <br>
+                        <a class="textStyle" style="float: left;"> Select discipline: </a>
+                        <select class="selectStyle" style="margin-left: 10px; float: left;" id="selectDiscipline">
+                            <option> Информатика </option>
+                        </select>
+                        <a class="textStyle" style="margin-left: 10px; float: left;"> Current mark: </a>
+                        <a class="textStyle" style="margin-left: 32px; float: left;"> Unknown </a>
+                        <br>
+                        <br>
+                        <br>
+                        <a class="textStyle" style="float: left;"> Set the mark: </a>
+                        <input type="text" style="height: 21px; width: 140px; margin-left: 32px; float: left" id="setMark">
+                        <br>
+                        <br>
+                        <input class="button" style="margin-left: 136px; height: 21px; width: 80px;" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

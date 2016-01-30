@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta charset="windows-1251">
+		<title>Mark showing</title>
+	</head>
+	
+	<style type="text/css">
+        @import "style.css";
+	</style>
+	
+	<body>
+        <div class="main">
+            <div class="header">
+                <div class="emptyTitle"></div>
+                <div class="title"> The control system of students and their academic performance
+                </div>
+                <div class="logout"> <a href="https://google.com/"> Logout </a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="buttons">
+                    <div style="float: left">
+                        <a href="https://google.com/"> Go to main </a>
+                    </div>
+                    <div style="float: left; padding: 0px 0px 0px 15px">
+                        <a href="https://google.com/"> Previous page </a>
+                    </div>
+                    <div style="padding: 0px 0px 0px 225px; font-size: 20px;">
+                        <a class="textStyle"> Fill out fields and click "Show" to get the student's marks for selected semester. </a>
+                    </div>
+                    <br>
+                    <br>
+                    <form style="margin-left: 225px; width: 750px; height: 50px;">
+                        <a class="textStyle" style="float: left;"> Select student: </a>
+                        <select class="selectStyle" style="margin-left: 21px; float: left;" id="selectStudent">
+                            <option> Петров </option>
+                        </select>
+                        <a class="textStyle" style="margin-left: 10px; float: left;"> Select semester: </a>
+                        <select class="selectStyle" style="margin-left: 10px; float: left;" id="selectSemester">
+                            <option> Семестр 1 </option>
+                        </select>
+                        <input class="button" style="margin-left: 40px; margin-top: 4px; height: 21px; width: 80px;" type="submit" value="Show">
+                    </form>
+                    <a class="textStyle" style="margin-left: 225px; float: left"> Results for student </a>
+                    <a class="textStyle" style="margin-left: 10px; float: left"> "Петров" </a>
+                    <a class="textStyle" style="margin-left: 10px; float: left"> in semester </a>
+                    <a class="textStyle" style="margin-left: 10px; float: left"> Семестр 1: </a>
+                    <br>
+                    <br>
+                    <table style="margin-left: 225px;" width="500px" border="1">
+                        <tr class="firstTableRow">
+                            <td> Semester </td>
+                            <td> Discipline </td>
+                            <td> Mark </td>
+                        </tr>
+                        <tr>
+                            <td> Семестр 1 </td>
+                            <td> Информатика </td>
+                            <td> 5 </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>
