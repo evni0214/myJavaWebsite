@@ -18,29 +18,41 @@
                 <div class="logout"> <a href="https://google.com/"> Logout </a>
                 </div>
             </div>
-            <div class="content">
+            <div class="pageElements">
                 <div class="buttons">
                     <div style="float: left">
                         <a href="https://google.com/"> Go to main </a>
                     </div>
-                    <div style="float: left; padding: 0px 0px 0px 15px">
+                    <div style="float: left; margin-left: 15px">
                         <a href="https://google.com/"> Previous page </a>
                     </div>
-                    <div style="padding: 0px 0px 0px 225px; font-size: 20px;">
-                        <a class="textStyle"> Fill out the field and click "Submit" to modify existing discipline. </a>
-                    </div>
-                    <br>
-                    <br>
-                    <form style="margin-left: 225px; width: 750px; height: 500px;" method="post">
-                        <a class="textStyle" style="font-size: 14px; float: left;"> Name of new discipline </a>
-                        <div>
-                            <input style="margin-left: 25px;" type="text" id="disciplineName">
+                    <div class="content">
+                        <div class="titleTextStyle">
+                            <a> Fill out the field and click "Submit" to modify existing discipline. </a>
                         </div>
                         <br>
-                        <div>
-                            <input class="button" style="width: 100px; margin-left: 173px;" type="submit" value="Submit" id="modifyDiscipline">
-                        </div>
-                    </form>
+                        <br>
+                        <form class="wideFormStyle" method="post">
+                            <table width="350px">
+                                <tr>
+                                    <td class="fieldLeftNameColStyle">
+                                        <a> Name of new discipline </a>
+                                    </td>
+                                    <td class="fieldColStyle">
+                                        <input type="text" id="disciplineName">
+                                    </td>
+                                </tr>
+                                <tr class="spaceRow"></tr>
+                                <tr>
+                                    <td class="fieldLeftNameColStyle">
+                                    </td>
+                                    <td class="fieldColStyle">
+                                        <input class="button" style="width: 100px;" type="submit" value="Submit" id="modifyDiscipline">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

@@ -9,65 +9,68 @@
     @import "style.css";
 </style>
 
-<body>
-<div class="main">
-    <div class="header">
-        <div class="emptyTitle"></div>
-        <div class="title"> The control system of students and their academic performance
-        </div>
-        <div class="logout"> <a href="https://google.com/"> Logout </a>
-        </div>
-    </div>
-    <div class="content">
-        <div class="buttons">
-            <div style="float: left">
-                <a href="https://google.com/"> Go to main </a>
-            </div>
-            <div style="float: left; padding: 0px 0px 0px 15px">
-                <a href="https://google.com/"> Previous page </a>
-            </div>
-            <br>
-            <form style="margin-left: 225px; width: 400px; height: 75px;">
-                <div style="font-size: 16px; float: left;">
-                    <a class="textStyle"> Select semester </a>
+    <body>
+        <div class="main">
+            <div class="header">
+                <div class="emptyTitle"></div>
+                <div class="title"> The control system of students and their academic performance
                 </div>
-                <div>
-                    <select class="selectStyle" style="margin-left: 20px; float: left;" id="listOfSemesters">
-                        <option> Семестр 1 </option>
-                    </select>
+                <div class="logout"> <a href="https://google.com/"> Logout </a>
                 </div>
-                <div>
-                    <input style="margin-left: 20px; width: 85px; margin-top: 4px;" class="button" type="submit" value="Select" id="selectSemester">
-                </div>
-                <br>
-                <a class="textStyle" style="font-size: 16px; float: left;"> Duration of semester: </a>
-                <a class="textStyle" style="font-size: 16px;"> 24 weeks </a>
-            </form>
-            <br>
-            <div>
-                <a class="textStyle" style="margin-left:225px; font-size: 16px; float: left;"> List of semesters' disciplines </a>
             </div>
-            <br>
-            <br>
-            <table style="width: 285px; margin-left: 225px; float: left;" border="1">
-                <tr class="firstTableRow">
-                    <td> Name of discipline </td>
-                </tr>
-                <tr class="tableTextStyle">
-                    <td> Информатика </td>
-                </tr>
-            </table>
-            <form style="margin-left: 550px; width: 225px; height: 250px;">
-                <input style="width: 225px" class="button" type="submit" value="Create new semester" id="newSemester">
-                <br>
-                <br>
-                <input style="width: 225px" class="button" type="submit" value="Modify existing semester" id="modifySemester">
-                <br>
-                <br>
-                <input style="width: 225px" class="button" type="submit" value="Delete semester" id="deleteSemester">
-            </form>
+            <div class="pageElements">
+                <div class="buttons">
+                    <div style="float: left">
+                        <a href="https://google.com/"> Go to main </a>
+                    </div>
+                    <div style="float: left; margin-left: 15px;">
+                        <a href="https://google.com/"> Previous page </a>
+                    </div>
+                    <br>
+                    <div class="content">
+                        <form class="semesterListSelectForm">
+                            <div style="float: left;">
+                                <a class="textStyle"> Select semester </a>
+                            </div>
+                            <div>
+                                <select class="selectStyle" style="margin-left: 20px; float: left;" id="listOfSemesters">
+                                    <option> Семестр 1 </option>
+                                </select>
+                            </div>
+                            <div>
+                                <input style="margin-left: 20px; width: 85px; margin-top: 4px;" class="button" type="submit" value="Select" id="selectSemester">
+                            </div>
+                            <br>
+                            <a class="textStyle" style="float: left;"> Duration of semester: &nbsp; </a>
+                            <a class="textStyle"> 24 weeks </a>
+                        </form>
+                        <br>
+                        <br>
+                        <div>
+                            <a class="textStyle" style="float: left;"> List of semesters' disciplines </a>
+                        </div>
+                        <br>
+                        <br>
+                        <table style="float: left;" width="285px" border="1">
+                            <tr class="firstTableRow">
+                                <td> Name of discipline </td>
+                            </tr>
+                            <tr class="tableTextStyle">
+                                <td> Информатика </td>
+                            </tr>
+                        </table>
+                        <form class="semesterListButtonForm">
+                            <input style="width: 150px" class="button" type="submit" value="Create new semester" id="newSemester">
+                            <br>
+                            <br>
+                            <input style="width: 150px" class="button" type="submit" value="Modify existing semester" id="modifySemester">
+                            <br>
+                            <br>
+                            <input style="width: 150px" class="button" type="submit" value="Delete semester" id="deleteSemester">
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-</body>
+    </body>
 </html>

@@ -18,56 +18,58 @@
                 <div class="logout"> <a href="https://google.com/"> Logout </a>
                 </div>
             </div>
-            <div class="content">
+            <div class="pageElements">
                 <div class="buttons">
                     <div style="float: left">
                         <a href="https://google.com/"> Go to main </a>
                     </div>
-                    <div style="float: left; padding: 0px 0px 0px 15px">
+                    <div style="float: left; margin-left: 15px;">
                         <a href="https://google.com/"> Previous page </a>
                     </div>
-                    <div style="padding: 0px 0px 0px 225px; font-size: 20px;">
-                        <a class="textStyle"> Academic performance of selected student: </a>
+                    <div class="content">
+                        <div class="titleTextStyle">
+                            <a> Academic performance of selected student: </a>
+                        </div>
+                        <br>
+                        <br>
+                        <table width="750px" border="1">
+                            <tr class="firstTableRow">
+                                <td> Last name </td>
+                                <td> First name </td>
+                                <td> Group </td>
+                                <td> Entrance date </td>
+                            </tr>
+                            <tr class="tableTextStyle">
+                                <td> Петров </td>
+                                <td> Пётр </td>
+                                <td> КТ-21 </td>
+                                <td> 1/09/2011 </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <br>
+                        <table width="300px" style="float: left;" border="1">
+                            <tr class="firstTableRow">
+                                <td> Discipline </td>
+                                <td> Mark </td>
+                            </tr>
+                            <tr class="tableTextStyle">
+                                <td> Информатика </td>
+                                <td> 5 </td>
+                            </tr>
+                        </table>
+                        <form class="studProgressForm">
+                            <a class="textStyle" style="float: left;"> Select semester: </a>
+                            <select class="selectStyle" style="margin-left: 10px; float: left;" id="selectSemester">
+                                <option> Семестр 1 </option>
+                            </select>
+                            <input class="button" style="width: 80px; margin-top: 4px;  margin-left: 10px;" type="submit" value="Select">
+                            <br>
+                            <br>
+                            <a class="textStyle" style="float: left;"> Average mark for semester: </a>
+                            <a class="textStyle" style="margin-left: 10px;"> 4.8 points </a>
+                        </form>
                     </div>
-                    <br>
-                    <br>
-                    <table style="width: 750px; margin-left: 225px;" border="1">
-                        <tr class="firstTableRow">
-                            <td> Last name </td>
-                            <td> First name </td>
-                            <td> Group </td>
-                            <td> Entrance date </td>
-                        </tr>
-                        <tr class="tableTextStyle">
-                            <td> Петров </td>
-                            <td> Пётр </td>
-                            <td> КТ-21 </td>
-                            <td> 1/09/2011 </td>
-                        </tr>
-                    </table>
-                    <br>
-                    <br>
-                    <table style="width: 300px; margin-left: 225px; float: left;" border="1">
-                        <tr class="firstTableRow">
-                            <td> Discipline </td>
-                            <td> Mark </td>
-                        </tr>
-                        <tr class="tableTextStyle">
-                            <td> Информатика </td>
-                            <td> 5 </td>
-                        </tr>
-                    </table>
-                    <form style="margin-left: 600px; width: 375px; height: 250px;">
-                        <a class="textStyle" style="float: left;"> Select semester: </a>
-                        <select class="selectStyle" style="margin-left: 10px; float: left;" id="selectSemester">
-                            <option> Семестр 1 </option>
-                        </select>
-                        <input class="button" style="height: 21px; width: 80px; margin-top: 4px;  margin-left: 10px;" type="submit" value="Select">
-                        <br>
-                        <br>
-                        <a class="textStyle" style="float: left;"> Average mark for semester: </a>
-                        <a class="textStyle" style="margin-left: 10px;"> 4.8 points </a>
-                    </form>
                 </div>
             </div>
         </div>

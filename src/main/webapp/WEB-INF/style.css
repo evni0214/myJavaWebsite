@@ -32,10 +32,14 @@ body {
     margin-left: 985px;
     margin-top: 18px;
 }
-.content {
+.pageElements {
     width: 1200px;
     height: 500px;
     background: #EEEEEE;
+}
+.content {
+    width: 750px;
+    margin-left: 225px;
 }
 .buttons {
     width: 1200px;
@@ -55,6 +59,53 @@ body {
 .textStyle {
     font-family: cursive;
 }
+.titleTextStyle {
+    font-family: cursive;
+    font-size: 20px;
+}
+.fieldRightNameColStyle {
+    font-family: cursive;
+    font-size: 14px;
+    text-align: right;
+}
+.fieldLeftNameColStyle {
+    font-family: cursive;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: top;
+}
+.fieldColStyle {
+    width: 175px;
+}
+.spaceRow {
+    height: 15px;
+}
+.studProgressForm {
+    margin-left: 375px;
+    width: 375px;
+    height: auto;
+}
+.discListForm {
+    margin-left: 525px;
+    width: 225px;
+    height: auto;
+}
+.semesterListSelectForm {
+    width: 400px;
+    height: auto;
+}
+.semesterListButtonForm {
+    width: 150px;
+    height: auto;
+    margin-left: 350px;
+}
+.wideFormStyle {
+    height: auto;
+}
+.wideFormFieldNames {
+    width: 150px;
+    float: left;
+}
 .tableTextStyle {
     font-family: cursive;
     font-size: 13px;
@@ -67,6 +118,10 @@ body {
     background: url("selectArrow.jpg") no-repeat right white;
     font-family: cursive;
     font-size: 11px;
+}
+.multiSelectStyle {
+    width: 175px;
+    height: 150px;
 }
 .checkBoxColumn {
     text-align: center;

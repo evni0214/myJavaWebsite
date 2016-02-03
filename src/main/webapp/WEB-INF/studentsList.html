@@ -18,49 +18,51 @@
                 <div class="logout"> <a href="https://google.com/"> Logout </a>
                 </div>
             </div>
-            <div class="content">
+            <div class="pageElements">
                 <div class="buttons">
                     <div style="float: left">
                         <a href="https://google.com/"> Go to main </a>
                     </div>
-                    <form method="post">
-                        <div style="padding: 0px 0px 0px 225px">
-                            <div style="float: left;">
-                                <input type="submit"style="width: 310px;" class="button" value="Look at the performance of particular students">
+                    <div class="content">
+                        <form method="post">
+                            <div>
+                                <div style="float: left;">
+                                    <input type="submit" style="width: 250px;" class="button" value="View performance of particular students">
+                                </div>
+                                <div>
+                                    <input type="submit" class="button" style="margin-left: 15px; width: 170px;" value="Create new student">
+                                </div>
                             </div>
-                            <div style="padding: 0px 0px 0px 350px">
-                                <input type="submit" class="button" style="width: 210px;" value="Create new student">
+                            <br>
+                            <div>
+                                <div style="float: left;">
+                                    <input type="submit" class="button" style="width: 250px;" value="Modify existing student">
+                                </div>
+                                <div>
+                                    <input type="submit" class="button" style="margin-left: 15px; width: 170px" value="Delete student">
+                                </div>
                             </div>
+                        </form>
+                        <div style="width: 750px;">
+                            <br>
+                            <p class="textStyle"> List of students </p>
+                            <table width="750px" border="1">
+                                <tr class="firstTableRow">
+                                    <td></td>
+                                    <td> Last name </td>
+                                    <td> First name </td>
+                                    <td> Group </td>
+                                    <td> Entrance date </td>
+                                </tr>
+                                <tr>
+                                    <td class="checkBoxColumn"> <input type="checkbox" id="1"> </td>
+                                    <td> Петров </td>
+                                    <td> Петр </td>
+                                    <td> ИТ-01 </td>
+                                    <td> 28/01/2016 </td>
+                                </tr>
+                            </table>
                         </div>
-                        <p></p>
-                        <div style="padding: 0px 0px 0px 225px">
-                            <div style="float: left;">
-                                <input type="submit" class="button" style="width: 310px;" value="Modify existing student">
-                            </div>
-                            <div style="padding: 0px 0px 0px 350px">
-                                <input type="submit" class="button" style="width: 210px" value="Delete student">
-                            </div>
-                        </div>
-                    </form>
-                    <div style="width: 750px; margin-left: 225px">
-                        <br>
-                        <p class="textStyle" style="font-size: 24px"> List of students </p>
-                        <table width="750px" border="1">
-                            <tr class="firstTableRow">
-                                <td></td>
-                                <td> Last name </td>
-                                <td> First name </td>
-                                <td> Group </td>
-                                <td> Entrance date </td>
-                            </tr>
-                            <tr>
-                                <td class="checkBoxColumn"> <input type="checkbox" id="1"> </td>
-                                <td> Петров </td>
-                                <td> Петр </td>
-                                <td> ИТ-01 </td>
-                                <td> 28/01/2016 </td>
-                            </tr>
-                        </table>
                     </div>
                 </div>
             </div>
