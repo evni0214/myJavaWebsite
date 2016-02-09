@@ -45,10 +45,29 @@ body {
     width: 1200px;
     height: 58px;
 }
-.button {
+.veryWideButton {
     border: 1px solid #000000;
     background: #CCCCCC;
     font-family: serif;
+    width: 250px;
+}
+.wideButton {
+    border: 1px solid #000000;
+    background: #CCCCCC;
+    font-family: serif;
+    width: 200px;
+}
+.mediumButton {
+    border: 1px solid #000000;
+    background: #CCCCCC;
+    font-family: serif;
+    width: 150px;
+}
+.smallButton {
+    border: 1px solid #000000;
+    background: #CCCCCC;
+    font-family: serif;
+    width: 100px;
 }
 .firstTableRow {
     background: #CCCCCC;
@@ -76,9 +95,13 @@ body {
 }
 .fieldColStyle {
     width: 175px;
+    text-align: center;
 }
 .spaceRow {
     height: 15px;
+}
+.spaceColumn {
+    width: 150px;
 }
 .studProgressForm {
     margin-left: 375px;
@@ -86,7 +109,7 @@ body {
     height: auto;
 }
 .discListForm {
-    margin-left: 525px;
+    margin-left: 550px;
     width: 225px;
     height: auto;
 }
@@ -112,12 +135,14 @@ body {
 }
 .selectStyle {
     width: 140px;
-    margin-top: 5px;
     outline: 1px solid #000000;
     cursor: context-menu;
     background: url("selectArrow.jpg") no-repeat right white;
     font-family: cursive;
     font-size: 11px;
+}
+.mediumInputBoxStyle {
+    width: 140px;
 }
 .multiSelectStyle {
     width: 175px;

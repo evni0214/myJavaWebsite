@@ -29,25 +29,30 @@
                     <br>
                     <div class="content">
                         <form class="semesterListSelectForm">
-                            <div style="float: left;">
-                                <a class="textStyle"> Select semester </a>
-                            </div>
-                            <div>
-                                <select class="selectStyle" style="margin-left: 20px; float: left;" id="listOfSemesters">
-                                    <option> Семестр 1 </option>
-                                </select>
-                            </div>
-                            <div>
-                                <input style="margin-left: 20px; width: 85px; margin-top: 4px;" class="button" type="submit" value="Select" id="selectSemester">
-                            </div>
-                            <br>
-                            <a class="textStyle" style="float: left;"> Duration of semester: &nbsp; </a>
-                            <a class="textStyle"> 24 weeks </a>
+                            <table width="400px">
+                                <tr>
+                                    <td class="fieldLeftNameColStyle">
+                                        <a> Select semester </a>
+                                    </td>
+                                    <td class="fieldColStyle">
+                                        <select class="selectStyle" name="listOfSemesters">
+                                            <option> Семестр 1 </option>
+                                        </select>
+                                    </td>
+                                    <td class="fieldLeftNameColStyle">
+                                        <input class="smallButton" type="submit" value="Select" name="selectSemester">
+                                    </td>
+                                </tr>
+                            </table>
                         </form>
+                        <br>
+                        <a class="textStyle" style="float: left;"> Duration of semester: "24 weeks" </a>
+                        <br>
+                        <br>
                         <br>
                         <br>
                         <div>
-                            <a class="textStyle" style="float: left;"> List of semesters' disciplines </a>
+                            <a class="textStyle" style="float: left;"> List of semesters' disciplines: </a>
                         </div>
                         <br>
                         <br>
@@ -60,13 +65,13 @@
                             </tr>
                         </table>
                         <form class="semesterListButtonForm">
-                            <input style="width: 150px" class="button" type="submit" value="Create new semester" id="newSemester">
+                            <input class="wideButton" type="submit" value="Create new semester" name="newSemester">
                             <br>
                             <br>
-                            <input style="width: 150px" class="button" type="submit" value="Modify existing semester" id="modifySemester">
+                            <input class="wideButton" type="submit" value="Modify existing semester" name="modifySemester">
                             <br>
                             <br>
-                            <input style="width: 150px" class="button" type="submit" value="Delete semester" id="deleteSemester">
+                            <input class="wideButton" type="submit" value="Delete semester" name="deleteSemester">
                         </form>
                     </div>
                 </div>
